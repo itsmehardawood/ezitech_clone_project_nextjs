@@ -22,7 +22,7 @@ function Navbar() {
       </div>
 
       {/* Menu List for large screens */}
-      <ul className="hidden lg:flex space-x-12 text-xl hover:text-gray-400">
+      <ul className="hidden lg:flex space-x-10 text-xl hover:text-gray-400">
         <li className='hover:text-black'><Link href="/">Home</Link></li>
         <li className='hover:text-blue-600'><Link href="/">About</Link></li>
         <li className='hover:text-black'><Link href="/">Internship's</Link></li>
@@ -44,7 +44,7 @@ function Navbar() {
       )}
 
       {/* Login Button */}
-      <button className="bg-blue-600 rounded-3xl px-5 py-3 text-white hidden lg:block">
+      <button className="bg-blue-600 rounded-3xl px-5 py-3 text-white hover:bg-blue-500 hidden lg:block">
         IPortal Login
       </button>
     </div>

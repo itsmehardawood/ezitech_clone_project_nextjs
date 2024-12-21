@@ -49,7 +49,7 @@ const LogoSlider = () => {
   ];
 
   return (
-    <div className="pt-5 bg-white ">
+    <div className="pt-5  ">
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index} className=" px-4">
